@@ -2,6 +2,7 @@ import { defineComponent, ref } from 'vue'
 import SearchHeader from '@/components/SearchHeader.vue'
 import SearchResults from '@/components/SearchResults.vue'
 
+
 import { searchInEmails, type ApiError, type Email } from '../services/api'
 import axios, { AxiosError } from 'axios'
 

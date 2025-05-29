@@ -2,6 +2,7 @@
 import type { Email } from '@/services/api'
 import EmailItem from '@/components/EmailItem.vue'
 
+
 defineProps<{
   emails: Email[] | null
   searchTerm: string

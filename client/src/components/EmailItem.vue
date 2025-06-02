@@ -3,6 +3,7 @@ import type { Email } from '@/services/api'
 import { computed, ref } from 'vue'
 import MessageIcon from '@/components/icons/MessageIcon.vue'
 
+
 const maxBodyLength = 180
 
 type ContentProps = {
